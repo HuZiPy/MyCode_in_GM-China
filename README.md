@@ -1,5 +1,8 @@
 # MyCode_in_GM-China
+
 2018.12—2019.03  internship at the General Motors.  
+
+***Save my code.***
 
 Using
 
