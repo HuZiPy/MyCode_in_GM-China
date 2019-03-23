@@ -2,7 +2,7 @@
 
 2018.12—2019.03  internship at the General Motors.  
 
-***Save my code.***
+***Save my Bad code.***
 
 Using
 
