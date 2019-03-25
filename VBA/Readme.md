@@ -81,4 +81,39 @@
     arr5 = Array("S6-1 Tier 1 Mix", "S6-2 Tier 2 Mix", "S6-3 Tier 3 Mix", "S6-4 Tier 4 Mix", "S6-5 Tier 5 Mix")
     
     For each ......
+    
+    
+## eis.bas
 
+excel 遇到个需求： 确定该值 是否 在 某区域内  => `countif()` formula
+
+1. 另存为 没有 宏 的 excel 文件
+
+      ThisWorkbook.SaveAs "filename", xlOpenXMLWorkbook
+    
+    
+2. 删除控件
+
+        For Each sht In Sheets
+    
+          sht.DrawingObjects.Delete
+        
+        Next
+
+3. 发送邮件
+
+## Updateeis.bas
+
+excel formula `=DAY(TODAY()-1)&TEXT(TODAY()-1,"yyyy-mm-dd")&"31"`
+
+  `TEXT()` 修改格式
+  
+  
+## [to_txt.bas](https://github.com/HuZiPy/MyCode_in_GM-China/blob/master/VBA/to_txt.bas)
+
+主要是 按照 需求（百分比、| etc.） 生成 txt 文件  部分
+
+
+## modify_Type.bas
+
+修改格式， 加总确定总数是否正确 etc.
