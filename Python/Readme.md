@@ -15,3 +15,12 @@
   但感觉 excel 的 pivot table 功能也挺强大的  比如说 能得到 占 某种类 的百分比
 	
   pandas 如何实现还不清楚
+  
+
+* [reset_index](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html)
+
+后续 需要 注意的是 解决大小写的问题  例： "Van" 和 "VAN"
+
+一个想法是 将原始数据 处理为全部 大（/小）写
+
+	
