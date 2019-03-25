@@ -8,4 +8,4 @@ install ***jieba*** and ***wordcloud*** base on the anaconda
     
   2. 将安装包 解压至 anaconda 的 **pkgs** 目录下
     
-  3. 通过终端（**Anaconda Prompt**）进入 安装包文件所在地，输入命令  `python setup.py install` 
+  3. 通过终端（**Anaconda Prompt**）进入 安装包文件所在目录，输入命令  `python setup.py install` 
