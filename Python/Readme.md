@@ -12,7 +12,7 @@
 
   聚合 这部分还得 再 琢磨 琢磨 `groupby`  etc   
 
-  但感觉 excel 的 pivot table 功能也挺强大的  比如说 能得到 占 某种类 的百分比
+  但感觉 excel 的 pivot table 功能也挺强大的  比如说 能得到 占 某类别 的百分比
 	
   pandas 如何实现还不清楚
   
@@ -24,3 +24,19 @@
 一个想法是 将原始数据 处理为全部 大（/小）写
 
 	
+## insurance.py
+
+* 修改列名  `df.rename()`
+
+
+* DataFrame 中插入 新的一列    `DOMESTIC_CV_df.insert(0,"Source","RETAIL")`
+
+
+* DataFrame 合并 - 列方向    `concat`
+
+		pd.concat([DOMESTIC_CV_df,DOMESTIC_PV_LOCAL_df,IMPORT_CV,IMPORT_PV],ignore_index=True)
+
+
+## top.py
+
+* 排序  `df.sort_values(by="CYTD",ascending=False)`
