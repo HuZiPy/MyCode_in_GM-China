@@ -1,4 +1,4 @@
-# 销量预测
+# 月度销量预测
 
 销量预测部分是基于 Facebook 开发的 [Prophet](https://facebook.github.io/prophet/) 
 
